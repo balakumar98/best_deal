@@ -10,7 +10,7 @@ browser = webdriver.Firefox(options=options)
 # url = "https://www.bigbasket.com/pd/100286100/aachi-powder-sambar-100-g-pouch/?nc=as&q=aac"
 url = "https://www.bigbasket.com/pd/100006161/colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti-100-g/"
 browser.get(url)
-# a = browser.find_elements_by_class_name("_2Z6Vt")
+aa = browser.find_elements_by_class_name("_2Z6Vt")
 print(len(a))
 # res = a.split("\n")_1LiCn
 # for i in res:
