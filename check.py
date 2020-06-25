@@ -3,8 +3,8 @@ from selenium.webdriver.firefox.options import Options
 
 options = Options()
 options.headless = True
-# browser = webdriver.Firefox(options=options)
-browser = webdriver.Firefox()
+browser = webdriver.Firefox(options=options)
+# browser = webdriver.Firefox()
 # url = 'https://www.bigbasket.com/pd/240125/dabur-honey-india-s-no1-honey-400-g-squeezy-pack/'
 # url = "https://www.bigbasket.com/pd/1203960/lays-potato-chips-indias-magic-masala-party-pack-2x167g/"
 # url = "https://www.bigbasket.com/pd/100286100/aachi-powder-sambar-100-g-pouch/?nc=as&q=aac"
@@ -12,7 +12,8 @@ browser = webdriver.Firefox()
 # url = "https://www.bigbasket.com/pd/263921/"
 # url = "https://www.bigbasket.com/pd/240125/"
 # url = "https://www.bigbasket.com/pd/267758/dabur-badam-tail-100-pure-almond-oil-100-ml/"
-url = "https://www.bigbasket.com/pd/60000655/coca-cola-soft-drink-original-taste-600-ml-bottle/"
+# url = "https://www.bigbasket.com/pd/60000655/coca-cola-soft-drink-original-taste-600-ml-bottle/"
+url = "https://www.bigbasket.com/pd/287005/sunfeast-yippee-magic-masala-noodles-60-g-pouch/?nc=as&q=yip"
 browser.get(url)
 a = browser.find_elements_by_class_name("irDHq")
 if not a:
