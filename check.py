@@ -15,10 +15,18 @@ browser = webdriver.Firefox(options=options)
 # url = "https://www.bigbasket.com/pd/60000655/coca-cola-soft-drink-original-taste-600-ml-bottle/"
 url = "https://www.bigbasket.com/pd/287005/sunfeast-yippee-magic-masala-noodles-60-g-pouch/?nc=as&q=yip"
 browser.get(url)
-a = browser.find_elements_by_class_name("irDHq")
+a = browser.find_elements_by_class_name("irDHq")[0].text
 if not a:
-    a = browser.find_elements_by_class_name("_2yfKw")
-print(a[0].text)
+    a = browser.find_elements_by_class_name("_2yfKw")[0].text
+res = a.split("\n")[1:]
+
+# print(res)
+for i in range(len(res)):
+    if i%2 != 0:
+        quantity = res[i].replace("g","")
+        quantity = res[i].replace("ml","")
+        quantity = res[i].replace("L","")
+        quantity = res[i].replace("kg","")
 # res = a.split("\n")_1LiCn_2Z6Vt irDHq
 # for i in res:
 #     d
