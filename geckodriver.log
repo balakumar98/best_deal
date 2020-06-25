@@ -2,3 +2,143 @@
 *** You are running in headless mode.
 1593063452342	Marionette	INFO	Listening on port 40761
 1593063452451	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593065318429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo0wPRH"
+*** You are running in headless mode.
+1593065322287	Marionette	INFO	Listening on port 39799
+1593065322343	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593065327953	Marionette	INFO	Stopped listening on port 39799
+1593065455076	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileS1sZQV"
+*** You are running in headless mode.
+1593065459834	Marionette	INFO	Listening on port 44985
+1593065459900	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593065467984	Marionette	INFO	Stopped listening on port 44985
+1593065531409	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelP4CYH"
+*** You are running in headless mode.
+1593065535524	Marionette	INFO	Listening on port 39951
+1593065535627	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593065541696	Marionette	INFO	Stopped listening on port 39951
+1593065567554	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilev4mZKU"
+*** You are running in headless mode.
+1593065571895	Marionette	INFO	Listening on port 37817
+1593065571977	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593065577471	Marionette	INFO	Stopped listening on port 37817
+1593065614929	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileD8s54m"
+*** You are running in headless mode.
+1593065618981	Marionette	INFO	Listening on port 34629
+1593065619041	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593065626272	Marionette	INFO	Stopped listening on port 34629
+1593065671489	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexFTloN"
+*** You are running in headless mode.
+1593065675490	Marionette	INFO	Listening on port 46215
+1593065675522	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593065681418	Marionette	INFO	Stopped listening on port 46215
+1593065701479	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeqxjCr"
+*** You are running in headless mode.
+1593065705367	Marionette	INFO	Listening on port 43147
+1593065705403	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593065711623	Marionette	INFO	Stopped listening on port 43147
+1593072290969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKCJoMj"
+*** You are running in headless mode.
+1593072294948	Marionette	INFO	Listening on port 40301
+1593072294987	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072300043	Marionette	INFO	Stopped listening on port 40301
+1593072331630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenwNMXr"
+*** You are running in headless mode.
+1593072335579	Marionette	INFO	Listening on port 33087
+1593072335643	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072342217	Marionette	INFO	Stopped listening on port 33087
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593072369620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelljjJn"
+*** You are running in headless mode.
+1593072373389	Marionette	INFO	Listening on port 33011
+1593072373431	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072380291	Marionette	INFO	Stopped listening on port 33011
+1593072419521	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3sjVjy"
+*** You are running in headless mode.
+1593072423578	Marionette	INFO	Listening on port 46119
+1593072423637	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072428743	Marionette	INFO	Stopped listening on port 46119
+1593072472299	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWsBuA1"
+*** You are running in headless mode.
+1593072476373	Marionette	INFO	Listening on port 37919
+1593072476431	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072482081	Marionette	INFO	Stopped listening on port 37919
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593072523229	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZkMNNE"
+*** You are running in headless mode.
+1593072527721	Marionette	INFO	Listening on port 46395
+1593072527750	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072654177	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJcS768"
+*** You are running in headless mode.
+1593072658242	Marionette	INFO	Listening on port 37273
+1593072658289	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072665559	Marionette	INFO	Stopped listening on port 37273
+1593072712978	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiX3SMl"
+*** You are running in headless mode.
+1593072717039	Marionette	INFO	Listening on port 37623
+1593072717092	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072724205	Marionette	INFO	Stopped listening on port 37623
+1593072742063	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevK2XNA"
+*** You are running in headless mode.
+1593072746335	Marionette	INFO	Listening on port 45835
+1593072746387	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072753894	Marionette	INFO	Stopped listening on port 45835
+1593072806404	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3FJ0cd"
+*** You are running in headless mode.
+1593072810714	Marionette	INFO	Listening on port 43067
+1593072810727	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072817565	Marionette	INFO	Stopped listening on port 43067
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1593072844027	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGnWwcS"
+*** You are running in headless mode.
+1593072848185	Marionette	INFO	Listening on port 45207
+1593072848240	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072853561	Marionette	INFO	Stopped listening on port 45207
+1593072871481	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileu365Fl"
+*** You are running in headless mode.
+1593072875504	Marionette	INFO	Listening on port 41115
+1593072875637	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072883276	Marionette	INFO	Stopped listening on port 41115
+1593072901700	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQcm5a9"
+*** You are running in headless mode.
+1593072905824	Marionette	INFO	Listening on port 42109
+1593072905921	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072911587	Marionette	INFO	Stopped listening on port 42109
+1593072966560	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaS9xpG"
+*** You are running in headless mode.
+1593072970704	Marionette	INFO	Listening on port 32961
+1593072970786	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593072978183	Marionette	INFO	Stopped listening on port 32961
+1593073119783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRFvhiY"
+*** You are running in headless mode.
+1593073123915	Marionette	INFO	Listening on port 44833
+1593073124044	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593073130074	Marionette	INFO	Stopped listening on port 44833
+1593073181017	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevinYLP"
+1593073185528	Marionette	INFO	Listening on port 46611
+1593073185565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593073192046	Marionette	INFO	Stopped listening on port 46611
