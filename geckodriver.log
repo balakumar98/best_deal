@@ -5588,3 +5588,13 @@ JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691:
 1593111161421	Marionette	INFO	Listening on port 44821
 1593111161516	Marionette	WARN	TLS certificate errors will be ignored for this session
 1593111167896	Marionette	INFO	Stopped listening on port 44821
+1593111684121	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGuwCzj"
+*** You are running in headless mode.
+1593111690766	Marionette	INFO	Listening on port 46079
+1593111690896	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111698312	Marionette	INFO	Stopped listening on port 46079
+1593111773184	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyyQpRT"
+*** You are running in headless mode.
+1593111779936	Marionette	INFO	Listening on port 37499
+1593111780007	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593111787397	Marionette	INFO	Stopped listening on port 37499

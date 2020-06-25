@@ -22,11 +22,13 @@ res = a.split("\n")[1:]
 
 # print(res)
 for i in range(len(res)):
-    if i%2 != 0:
+    if i%2 == 0:
         quantity = res[i].replace("g","")
-        quantity = res[i].replace("ml","")
-        quantity = res[i].replace("L","")
-        quantity = res[i].replace("kg","")
+        quantity = quantity.replace("ml","")
+        quantity = quantity.replace("L","")
+        quantity = quantity.replace("kg","")
+        print(quantity)
+
 # res = a.split("\n")_1LiCn_2Z6Vt irDHq
 # for i in res:
 #     d
