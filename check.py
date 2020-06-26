@@ -18,8 +18,10 @@ url = 'https://www.bigbasket.com/pd/240125/dabur-honey-india-s-no1-honey-400-g-s
 browser.get(url)
 try:
     a = browser.find_elements_by_class_name("irDHq")[0].text
+    t = 0
 except:
     a = browser.find_elements_by_class_name("_2yfKw")[0].text
+    t = 1
     
 res = a.split("\n")[1:]
 
@@ -34,8 +36,9 @@ def clean(i,o):
 quan = []
 cost = []
 res2 = []
+quan_type = []
 for i in res:
-    if i.lower() == "out of stock":
+    if "out of stock" in i.lower() or "price" in i.lower() :
         # res.remove(i)
         # print("o",i)
         # print("o",i)
@@ -51,22 +54,30 @@ for i in res:
         # print(i)
     if "g" in i:
         i = clean(i,"g")
+        quan_type.append('g')
         quan.append(i.replace("g","").strip())
         # print(i)
     # else:
     #     print(i)
     if "kg" in i:
+        i = clean(i,"kg")
+        quan_type.append('kg')
         quan.append(i.replace("kg","").strip())
     if "ml" in i:
+        i = clean(i,"ml")
+        quan_type.append('ml')
         quan.append(i.replace("ml","").strip())
     if "L" in i:
+        i = clean(i,"L")
+        quan_type.append('L')
         quan.append(i.replace("L","").strip())
     if "MRP: Rs" in i:
         i = i.replace(i[:int(i.index("MRP: "))+5],"")
-        # price
         # print(i)
         # t = i.split("MRP: Rs ")
         # cost.append(i.replace("Rs ",""))
+    if "Price" in i:
+        continue
     if "Rs" in i:
         cost.append(i.replace("Rs","").strip())
 
@@ -76,25 +87,38 @@ for i in range(len(quan)):
         quan[i] = float(spli[0])*float(spli[1])
 # print(res)
 
-print(quan)
-print(cost)
+# print(quan)
+# print(cost)
 ratio = []
 for i in range(len(quan)) :
     ratio.append(int(quan[i])/int(cost[i]))
 
 # print(res2)
 print(ratio)
+print(ratio.index(max(ratio)))
 fin_ratio = ratio
 chec = max(fin_ratio)
 fin_ratio.remove(chec)
-if chec == max(fin_ratio):
-    print("All the following deals are profitable...")
-    for i in range(int(len(res2)/3)):
-        print(res2[int(i*3)],res2[int(i*3)+1],res2[int(i*3)+2])
-elif len(quan) == len(cost):
-    print("Best deal for you is: ",res2[int(ratio.index(max(ratio))*3)],res2[int(ratio.index(max(ratio))*3)+1],res2[int(ratio.index(max(ratio))*3)+2])
+# print(ratio)
+if t != 0:
+    if len(fin_ratio) > 0 and chec == max(fin_ratio) and len(quan) == len(cost) and len(quan) == len(quan_type):
+        print("All the following deals are profitable...")
+        for i in range(int(len(cost))):
+            print(quan[i],quan_type[i]," ",cost[i],"Rs")
+    elif len(quan) == len(cost):
+        print("Best deal for you is: ",quan[int(ratio.index(max(ratio)))])
+        # ,quan_type[int(ratio.index(max(ratio)))]," ",cost[int(ratio.index(max(ratio)))],"Rs")
+    else:
+        print("Some unexpected error has occurred...")
 else:
-    print("Some unexpected error has occurred...")
+    if len(fin_ratio) > 0 and chec == max(fin_ratio):
+        print("All the following deals are profitable...")
+        for i in range(int(len(res2)/3)):
+            print(res2[int(i*3)],res2[int(i*3)+1],res2[int(i*3)+2])
+    elif len(quan) == len(cost):
+        print("Best deal for you is: ",res2[int(ratio.index(max(ratio))*3)],res2[int(ratio.index(max(ratio))*3)+1],res2[int(ratio.index(max(ratio))*3)+2])
+    else:
+        print("Some unexpected error has occurred...")
     # if i%2 == 0:
     #     quantity = res[i].replace("g","")
     #     quantity = quantity.replace("ml","")
