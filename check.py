@@ -7,16 +7,16 @@ options.headless = True
 browser = webdriver.Firefox(options=options)
 # browser = webdriver.Firefox()
 url = 'https://www.bigbasket.com/pd/240125/dabur-honey-india-s-no1-honey-400-g-squeezy-pack/'
-# url = "https://www.bigbasket.com/pd/1203960/lays-potato-chips-indias-magic-masala-party-pack-2x167g/"
-# url = "https://www.bigbasket.com/pd/100286100/aachi-powder-sambar-100-g-pouch/?nc=as&q=aac"
-# url = "https://www.bigbasket.com/pd/263921/colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti-200-g/"
-# url = "https://www.bigbasket.com/pd/263921/"
+url = "https://www.bigbasket.com/pd/1203960/lays-potato-chips-indias-magic-masala-party-pack-2x167g/"
+url = "https://www.bigbasket.com/pd/100286100/aachi-powder-sambar-100-g-pouch/?nc=as&q=aac"
+url = "https://www.bigbasket.com/pd/263921/colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti-200-g/"
+url = "https://www.bigbasket.com/pd/263921/"
 # url = "https://www.bigbasket.com/pd/240125/"
-# url = "https://www.bigbasket.com/pd/267758/dabur-badam-tail-100-pure-almond-oil-100-ml/"
-# url = "https://www.bigbasket.com/pd/60000655/coca-cola-soft-drink-original-taste-600-ml-bottle/"
-# url = "https://www.bigbasket.com/pd/287005/sunfeast-yippee-magic-masala-noodles-60-g-pouch/?nc=as&q=yip"
-# url = "https://www.bigbasket.com/pd/100003902/mysore-sandal-bathing-soap-125-g-carton/"
-# url = "https://www.bigbasket.com/pd/100968/mysore-sandal-bathing-soap-superior-with-pure-sandalwood-oil-150-g-carton/"
+url = "https://www.bigbasket.com/pd/267758/dabur-badam-tail-100-pure-almond-oil-100-ml/"
+url = "https://www.bigbasket.com/pd/60000655/coca-cola-soft-drink-original-taste-600-ml-bottle/"
+url = "https://www.bigbasket.com/pd/287005/sunfeast-yippee-magic-masala-noodles-60-g-pouch/?nc=as&q=yip"
+url = "https://www.bigbasket.com/pd/100003902/mysore-sandal-bathing-soap-125-g-carton/"
+url = "https://www.bigbasket.com/pd/100968/mysore-sandal-bathing-soap-superior-with-pure-sandalwood-oil-150-g-carton/"
 
 
 browser.get(url)
@@ -64,10 +64,11 @@ for i in res:
         # print(i)
 
     if "%" in i:
+        # print(i)tQ1Iy@browser.find_elements_by_class_name("_2yfKw")[0].text
+        # i = i.replace(i[int(i.index("%")-2):int(i.index("%"))+1],"")
+        # i = i.replace("Off","")
         # print(i)
-        i = i.replace(i[int(i.index("%")-2):int(i.index("%"))+1],"")
-        i = i.replace("Off","")
-        # print(i)
+        i = browser.find_elements_by_class_name("tQ1Iy")[0].text
     if "g" in i: 
         if t == 0:
             # print(i)
@@ -112,7 +113,7 @@ for i in range(len(quan)):
         # print(spli[1])
         # print(re.findall('\d+.\d+', spli[0]))
         # print(re.findall('\d+.\d+', spli[1]))
-        quan[i] = float(re.findall('\d+.\d+', spli[0])[0])*float(re.findall('\d+', spli[1])[0])
+        quan[i] = float(re.findall('\d+.\d+', str(float(spli[0])))[0])*float(re.findall('\d+.\d+', str(float(spli[1])))[0])
 # print(res)
 
 # print(quan)
