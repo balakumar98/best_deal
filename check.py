@@ -15,6 +15,10 @@ url = 'https://www.bigbasket.com/pd/240125/dabur-honey-india-s-no1-honey-400-g-s
 # url = "https://www.bigbasket.com/pd/267758/dabur-badam-tail-100-pure-almond-oil-100-ml/"
 # url = "https://www.bigbasket.com/pd/60000655/coca-cola-soft-drink-original-taste-600-ml-bottle/"
 # url = "https://www.bigbasket.com/pd/287005/sunfeast-yippee-magic-masala-noodles-60-g-pouch/?nc=as&q=yip"
+# url = "https://www.bigbasket.com/pd/100003902/mysore-sandal-bathing-soap-125-g-carton/"
+# url = "https://www.bigbasket.com/pd/100968/mysore-sandal-bathing-soap-superior-with-pure-sandalwood-oil-150-g-carton/"
+
+
 browser.get(url)
 try:
     a = browser.find_elements_by_class_name("irDHq")[0].text
@@ -26,7 +30,7 @@ except:
 res = a.split("\n")[1:]
 
 def clean(i,o):
-    if len(i) >= 7:
+    if len(i) >= 8 and "x" not in i:
         return i[i.index(o)-5:i.index(o)]
     else:
         return i
@@ -47,16 +51,34 @@ for i in res:
         # print("e",i)
         res2.append(i)
     # print(i)
+    if "Pack of" in i:
+        i = i.replace("Pack of","x")
+        # print(i)
+    
+    if "Buy 1 Get 1 Free" in i:
+        # quan[-1] = quan[-1]*2
+        inti = re.findall('\d+', i)
+        # print(inti)
+        i = i.replace(inti[-3],str(float(inti[-3])*2))
+        print(i)
+
     if "%" in i:
         # print(i)
         i = i.replace(i[int(i.index("%")-2):int(i.index("%"))+1],"")
         i = i.replace("Off","")
         # print(i)
-    if "g" in i:
-        i = clean(i,"g")
-        quan_type.append('g')
-        quan.append(i.replace("g","").strip())
-        # print(i)
+    if "g" in i: 
+        if t == 0:
+            # print(i)
+            i = clean(i,"g")
+            quan_type.append('g')
+            quan.append(i.replace("g","").strip())
+        else :
+            i = i.split(",")[-1]
+            i = clean(i,"g")
+            quan_type.append('g')
+            quan.append(i.replace("g","").strip())
+
     # else:
     #     print(i)
     if "kg" in i:
@@ -81,11 +103,16 @@ for i in res:
     if "Rs" in i:
         cost.append(i.replace("Rs","").strip())
 
+print(quan)
 for i in range(len(quan)):
     if "x" in quan[i]:
+        # print(quan[i])
         spli = quan[i].split("x")
-        quan[i] = float(spli[0])*float(spli[1])
-# print(res)
+        # print(spli[1])
+        # print(re.findall('\d+.\d+', spli[0]))
+        # print(re.findall('\d+.\d+', spli[1]))
+        quan[i] = float(re.findall('\d+.\d+', spli[0])[0])*float(re.findall('\d+', spli[1])[0])
+print(res)
 
 # print(quan)
 # print(cost)
@@ -94,9 +121,9 @@ for i in range(len(quan)) :
     ratio.append(int(quan[i])/int(cost[i]))
 
 # print(res2)
-print(ratio)
-print(ratio.index(max(ratio)))
-fin_ratio = ratio
+# print(ratio)
+# print(ratio.index(max(ratio)))
+fin_ratio = ratio[:]
 chec = max(fin_ratio)
 fin_ratio.remove(chec)
 # print(ratio)
@@ -106,30 +133,16 @@ if t != 0:
         for i in range(int(len(cost))):
             print(quan[i],quan_type[i]," ",cost[i],"Rs")
     elif len(quan) == len(cost):
-        print("Best deal for you is: ",quan[int(ratio.index(max(ratio)))])
-        # ,quan_type[int(ratio.index(max(ratio)))]," ",cost[int(ratio.index(max(ratio)))],"Rs")
+        print("Best deal for you is: ",quan[int(ratio.index(max(ratio)))],quan_type[int(ratio.index(max(ratio)))],",",cost[int(ratio.index(max(ratio)))],"Rs")
     else:
         print("Some unexpected error has occurred...")
 else:
-    if len(fin_ratio) > 0 and chec == max(fin_ratio):
+    if len(fin_ratio) > 0 and chec == max(fin_ratio) and len(quan) == len(cost) and len(quan) == len(quan_type):
         print("All the following deals are profitable...")
-        for i in range(int(len(res2)/3)):
-            print(res2[int(i*3)],res2[int(i*3)+1],res2[int(i*3)+2])
+        for i in range(int(len(cost))):
+            print(quan[i],quan_type[i]," ",cost[i],"Rs")
     elif len(quan) == len(cost):
-        print("Best deal for you is: ",res2[int(ratio.index(max(ratio))*3)],res2[int(ratio.index(max(ratio))*3)+1],res2[int(ratio.index(max(ratio))*3)+2])
+        print("Best deal for you is: ",quan[int(ratio.index(max(ratio)))],quan_type[int(ratio.index(max(ratio)))],",",cost[int(ratio.index(max(ratio)))],"Rs")
     else:
         print("Some unexpected error has occurred...")
-    # if i%2 == 0:
-    #     quantity = res[i].replace("g","")
-    #     quantity = quantity.replace("ml","")
-    #     quantity = quantity.replace("L","")
-    #     quantity = quantity.replace("kg","")
-    #     print(quantity)
-    # if 4*i %
-
-# res = a.split("\n")_1LiCn_2Z6Vt irDHq
-# for i in res:
-#     d
-# browser.save_screenshot('screenie.png')
-# print("Headless Firefox Initialized")
 browser.quit()
