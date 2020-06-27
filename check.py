@@ -31,6 +31,7 @@ res = a.split("\n")[1:]
 
 def clean(i,o):
     if len(i) >= 8 and "x" not in i:
+        # print(i[i.index(o)-5:i.index(o)])
         return i[i.index(o)-5:i.index(o)]
     else:
         return i
@@ -59,8 +60,8 @@ for i in res:
         # quan[-1] = quan[-1]*2
         inti = re.findall('\d+', i)
         # print(inti)
-        i = i.replace(inti[-3],str(float(inti[-3])*2))
-        print(i)
+        i = i.replace(inti[-3],str(int(inti[-3])*2))
+        # print(i)
 
     if "%" in i:
         # print(i)
@@ -103,7 +104,7 @@ for i in res:
     if "Rs" in i:
         cost.append(i.replace("Rs","").strip())
 
-print(quan)
+# print(quan)
 for i in range(len(quan)):
     if "x" in quan[i]:
         # print(quan[i])
@@ -112,7 +113,7 @@ for i in range(len(quan)):
         # print(re.findall('\d+.\d+', spli[0]))
         # print(re.findall('\d+.\d+', spli[1]))
         quan[i] = float(re.findall('\d+.\d+', spli[0])[0])*float(re.findall('\d+', spli[1])[0])
-print(res)
+# print(res)
 
 # print(quan)
 # print(cost)

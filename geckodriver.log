@@ -6105,3 +6105,462 @@ Exiting due to channel error.
 *** You are running in headless mode.
 Exiting due to channel error.
 Exiting due to channel error.
+1593245342063	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJKB3eL"
+*** You are running in headless mode.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+1593245449328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileamDw9b"
+*** You are running in headless mode.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"SessionStore: flushing all windows","state":{"total":1,"current":0},"filename":"resource:///modules/sessionstore/SessionStore.jsm","lineNumber":2205,"stack":["resource:///modules/sessionstore/SessionStore.jsm:ssi_onQuitApplicationGranted:2205","resource:///modules/sessionstore/SessionStore.jsm:ssi_observe:915"]}] Barrier: quit-application-granted
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":51},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":17},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":17},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":51},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:cloneStorageConnection/</<:1190"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":51},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":51},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":51},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":51},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]}] Barrier: profile-before-change
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006E,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006C,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38006D,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x38004F,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2226: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]}] Barrier: profile-before-change
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":false,"hasDbConn":true,"hasInProgressTransaction":true,"pendingStatements":1,"statementCounter":49},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}] Barrier: Sqlite.jsm: wait until all connections are closed
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: IDBDatabase.transaction: Can't start IndexedDB transaction during shutdown
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBDatabase::Msg_PBackgroundIDBTransactionConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBDatabase::Msg_PBackgroundIDBTransactionConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: IDBDatabase.transaction: Can't start IndexedDB transaction during shutdown
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBDatabase::Msg_PBackgroundIDBTransactionConstructor Value error: message was deserialized, but contained an illegal value
+
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-PX6VQo/firefox-77.0.1+build1/toolkit/components/places/Database.cpp","lineNumber":495,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1923","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1773","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2115"]},{"name":"Sqlite.jsm shutdown blocker","state":{"description":"Waiting for connections to close","state":[{"name":"protections.sqlite#0: waiting for shutdown","state":{"identifier":"protections.sqlite#0","isCloseRequested":true,"hasDbConn":false,"hasInProgressTransaction":false,"pendingStatements":0,"statementCounter":0},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":293,"stack":["resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]}]},"filename":"resource://gre/modules/Sqlite.jsm","lineNumber":170,"stack":["resource://gre/modules/Sqlite.jsm:null:170","resource://gre/modules/XPCOMUtils.jsm:get:129","resource://gre/modules/Sqlite.jsm:ConnectionData:293","resource://gre/modules/Sqlite.jsm:OpenedConnection:1303","resource://gre/modules/Sqlite.jsm:openConnection/</<:1099"]},{"name":"TrackingDBService: Shutting down the content blocking database.","state":"(none)","filename":"resource://gre/modules/TrackingDBService.jsm","lineNumber":158,"stack":["resource://gre/modules/TrackingDBService.jsm:_initialize:158"]}] Barrier: profile-before-change
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: IDBDatabase.transaction: Can't start IndexedDB transaction during shutdown
+1593245700454	Marionette	INFO	Stopped listening on port 38955
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: IDBDatabase.transaction: Can't start IndexedDB transaction during shutdown
+1593245700976	Marionette	INFO	Stopped listening on port 45013
+1593245701468	Marionette	INFO	Stopped listening on port 37767
+1593245701833	Marionette	INFO	Stopped listening on port 43897
+1593245702008	Marionette	INFO	Stopped listening on port 37661
+1593245702256	Marionette	INFO	Stopped listening on port 32819
+1593245702256	Marionette	INFO	Stopped listening on port 37165
+1593245702459	Marionette	INFO	Stopped listening on port 36929
+1593245703207	Marionette	INFO	Stopped listening on port 39157
+1593245703390	Marionette	INFO	Stopped listening on port 37439
+1593245705232	Marionette	INFO	Stopped listening on port 45255
+1593245705651	Marionette	INFO	Stopped listening on port 34723
+1593245705735	Marionette	INFO	Stopped listening on port 40981
+1593245705918	Marionette	INFO	Stopped listening on port 34555
+1593245706713	Marionette	INFO	Stopped listening on port 43107
+1593245707567	Marionette	INFO	Stopped listening on port 45817
+1593245713969	Marionette	INFO	Stopped listening on port 46751
+1593245714705	Marionette	INFO	Stopped listening on port 35485
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 314: TypeError: state is undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAB0003,name=PVsync::Msg_Observe) Channel error: cannot send/recv
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1593246553236	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileF7t8Fk"
+*** You are running in headless mode.
+1593246566671	Marionette	INFO	Listening on port 34763
+1593246566741	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593246652844	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUCsm2z"
+*** You are running in headless mode.
+1593246656803	Marionette	INFO	Listening on port 34101
+1593246656859	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593246661883	Marionette	INFO	Stopped listening on port 34101
+1593246680292	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerl2cxJ"
+*** You are running in headless mode.
+1593246684295	Marionette	INFO	Listening on port 40431
+1593246684310	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593246745934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVrPLe4"
+*** You are running in headless mode.
+1593246749874	Marionette	INFO	Listening on port 43469
+1593246749963	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593246794678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1KIs4b"
+*** You are running in headless mode.
+1593246799441	Marionette	INFO	Listening on port 46409
+1593246799493	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593246834718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecFMdBo"
+*** You are running in headless mode.
+1593246838900	Marionette	INFO	Listening on port 34081
+1593246838937	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593246844831	Marionette	INFO	Stopped listening on port 34081
+1593246852390	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3EOD7V"
+*** You are running in headless mode.
+1593246857489	Marionette	INFO	Listening on port 32843
+1593246857510	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593246862952	Marionette	INFO	Stopped listening on port 32843
+1593246882547	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWD8Rxb"
+*** You are running in headless mode.
+1593246886997	Marionette	INFO	Listening on port 39541
+1593246887061	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593246893094	Marionette	INFO	Stopped listening on port 39541
